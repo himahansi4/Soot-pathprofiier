@@ -1,0 +1,40 @@
+public class SimpleLoops extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int i;
+        java.io.PrintStream temp$0, temp$1;
+
+        args := @parameter0;
+        i = 3;
+        if i == 3 goto label0;
+
+        goto label1;
+
+     label0:
+        nop;
+        temp$0 = java.lang.System.out;
+        temp$0.println("Truey\n");
+        goto label2;
+
+     label1:
+        nop;
+        temp$1 = java.lang.System.out;
+        temp$1.println("Falsey\n");
+
+     label2:
+        nop;
+        return;
+    }
+
+    public void <init>()
+    {
+        SimpleLoops this;
+
+        this := @this;
+        this.<init>();
+        return;
+    }
+}

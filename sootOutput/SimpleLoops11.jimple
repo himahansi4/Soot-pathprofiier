@@ -1,0 +1,40 @@
+public class SimpleLoops11 extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int i;
+        java.io.PrintStream temp$0, temp$1;
+
+        args := @parameter0: java.lang.String[];
+        i = 3;
+        if i == 3 goto label0;
+
+        goto label1;
+
+     label0:
+        nop;
+        temp$0 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$0.<java.io.PrintStream: void println(java.lang.String)>("Truey\n");
+        goto label2;
+
+     label1:
+        nop;
+        temp$1 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$1.<java.io.PrintStream: void println(java.lang.String)>("Falsey\n");
+
+     label2:
+        nop;
+        return;
+    }
+
+    public void <init>()
+    {
+        SimpleLoops11 this;
+
+        this := @this: SimpleLoops11;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}

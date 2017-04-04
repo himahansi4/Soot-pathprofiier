@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="PathEncodingPass.java|PathEncodingPass1.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="var" path="JASMINCLASSES1"/>
+	<classpathentry kind="var" path="SOOTCLASSES" sourcepath="SOOTSRC"/>
+	<classpathentry kind="var" path="SOOTSRC"/>
+	<classpathentry kind="lib" path="/home/himahansi/Softwares/eclipseKepler/plugins/ca.mcgill.sable.soot.lib_2.5.2/lib/java_cup.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
